@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.upper{
+  min-height: 100vh; 
+  background-image: url("./images/backgroundimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+nav{
+ 
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+   
+nav li{
+  height: 50px;
+
+}
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+nav a:hover{
+  background-color: antiquewhite;
+}
+nav li:first-child{
+  margin-right: auto;
+}
+#logo{
+  font-weight: bold;
+  font-size: 18px;
+}
+.form{
+  position: relative;
+  left: 950px;
+  right: 700px;
+  bottom: 100px;
+  /* border: 2px solid black; */
+  /* border-radius: 15px; */
+  height: 400px;
+  width:400px;
+  display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+  background-image: url("./images/img2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form:hover{
+  border-radius: 45px;
+  transition-duration: 1s;
+  transition-timing-function:linear;
+  transition-delay: 1s;
+}
+.formdetails{
+  background-color: blueviolet;
+}
+.formcontent{
+  position: relative;
+  left: 300px;
+  top: 200px;
+}
+#head{
+  font-weight: 900;
+  font-size: 50px;
+}
+#belowhead{
+  position: relative;
+  left: 200px;
+  font-weight: 500;
+}
+#name{
+  background-color: rgba(138, 43, 226,0.1);
+}
+#phn{
+  background-color: rgba(138, 43, 226,0.1);
+}
+#email{
+  background-color: rgba(138, 43, 226,0.1);
+}
+.courses{
+  height: 1600px;
+  width:100%;
+  border:5px solid black; 
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 400px;
+}
+.Java{
+  height: 800px;
+  border: 2px solid black;
+  width: 50%;
+ background-color: antiquewhite;
+}
+.DSA{
+  height: 800px;
+  border: 2px solid black;
+  width: 50%;
+  background-color: blue;
+}
+.Webdevelopment{
+  height: 800px;
+  border: 2px solid black;
+  width: 50%;
+  background-color: gold;
+}
+.cpp{
+  height: 800px;
+  border: 2px solid black;
+  width: 50%;
+  background-color: pink;
+}
+#javaimg{
+  position: relative;
+  left: 150px;
+  top: 40px;
+  height: 300px;
+  width: 400px;
+}
+#javacontent{
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+.main{
+  background: url("images/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+}
+.mentors{
+ 
+  text-align: center;
+  
+}
+#mentorspara{
+  font-size: 70px;
+  color:blueviolet;
+  font-weight: 900;
+
+
+  
+}
+.mycard{
+  background-color: bisque;
+}
+.mycard:hover{
+  box-shadow: 10px 5px 5px black;
+  transition: 2s ease-in-out;
+}
+.dsa{
+ color:pink;
+}
+.red{
+  color:red;
+}
+.parahead{
+  position: relative;
+  top:40px;
+  left:20px;
+}
+.parafoot{
+  position: relative;
+  top:50px;
+}
+.parafootdsa{
+  position: relative;
+  top:70px;
+}
